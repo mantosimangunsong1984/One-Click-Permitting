@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tindakan</name>
+   <tag></tag>
+   <elementGuidId>899657b9-cdf1-4392-bb90-d48080bc1a3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@onclick=&quot;tindakLanjutPermit('0199c0e4-ffee-71cf-afba-ea1748fb2f9c')&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn.btn-warning.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;P2025100001 Baru MHU Coal Admin Smartsoft 1 2025-10-08 2025-10-31 Perizinan Lingkungan Menunggu Pengecekan Legal (1) 󰈈 Tindak Lanjut&quot;i] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d5d1b97a-9c6c-4c18-a79b-445dbfa492c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>tindakLanjutPermit('0199c0e4-ffee-71cf-afba-ea1748fb2f9c')</value>
+      <webElementGuid>6e7675ca-a35f-4e1a-a99b-bc7a90f56bf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning btn-sm</value>
+      <webElementGuid>c9406776-e701-4cea-88d7-f676e96e48a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Tindak Lanjut </value>
+      <webElementGuid>e1bf35fb-a70f-4797-aadc-4ab3008c0a02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center&quot;]/div[@class=&quot;btn btn-warning btn-sm&quot;]</value>
+      <webElementGuid>29e51899-4419-4533-9595-0874bc3d400c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@onclick=&quot;tindakLanjutPermit('0199c0e4-ffee-71cf-afba-ea1748fb2f9c')&quot;]</value>
+      <webElementGuid>61e5a0d2-4323-4d3c-b491-877686d3c12c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr/td[9]/div</value>
+      <webElementGuid>79f29509-25d2-4213-b828-5ff9ec286171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menunggu Pengecekan Legal (1)'])[1]/following::div[1]</value>
+      <webElementGuid>90a984f7-6ca3-4460-94af-4cb40f555cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Lingkungan'])[1]/following::div[1]</value>
+      <webElementGuid>d7e72838-bb00-4303-be74-3554a49f0813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P2025100003'])[1]/preceding::div[1]</value>
+      <webElementGuid>bef70f56-fcbd-4cae-8e5e-95f7519c8ab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[3]/preceding::div[1]</value>
+      <webElementGuid>d5806fc1-cb18-45ed-a0c9-b8d2f7a4093c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tindak Lanjut']/parent::*</value>
+      <webElementGuid>53fa2d21-d704-45e9-9591-af7d956a79f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/div</value>
+      <webElementGuid>9c21b4c3-3e25-4e01-9569-6b1cc63b0a1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '  Tindak Lanjut ' or . = '  Tindak Lanjut ')]</value>
+      <webElementGuid>a249a9dc-48d1-4b3f-91bd-bd187a513649</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

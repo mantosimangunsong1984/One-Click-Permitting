@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tambah Perizinan Daftar Request Perizinan-SubPerizinan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac172b28-d848-433f-9761-3d90316b4059</testCaseGuid>
+</TestCaseEntity>

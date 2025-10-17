@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Edit-kewenangan</name>
+   <tag></tag>
+   <elementGuidId>e74e4f14-7653-439f-b174-9fc1a4268c2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-subpermitauthority-0u-container']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-subpermitauthority-0u-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>181b0713-7cc2-4ee7-bff3-0722b1e47e54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__rendered</value>
+      <webElementGuid>95d3ab35-0e81-4e48-8f8b-e4522f2a99dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-subpermitauthority-0u-container</value>
+      <webElementGuid>55ba1f17-4b07-4d43-807f-68ad158029ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>textbox</value>
+      <webElementGuid>5c3aee5e-c076-4069-ae4e-0ca56d580ce3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-readonly</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5e7707ae-c936-4bc3-981f-64e85abfce42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>
+												Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal
+											</value>
+      <webElementGuid>1eab7727-3408-4136-88a8-8e73d4d73339</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+												Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal
+											</value>
+      <webElementGuid>9567a14a-cc41-4c0c-87cb-0663142a8019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-subpermitauthority-0u-container&quot;)</value>
+      <webElementGuid>3dc7e32d-a3aa-46e7-b853-3628ae02d599</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='select2-subpermitauthority-0u-container']</value>
+      <webElementGuid>db7e76f0-d5b3-4be1-bfc1-213771d80588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form-kewenangan']/div/div/span/span/span/span</value>
+      <webElementGuid>dbf6b267-bb92-41be-951a-3993f68c3e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Block quote'])[1]/following::span[4]</value>
+      <webElementGuid>6e909d5d-b081-4129-9ca8-b43d9e4f4c44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insert table'])[1]/following::span[5]</value>
+      <webElementGuid>20f855e1-0b72-4104-b286-b179e40e7f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rich Text Editor'])[3]/preceding::span[3]</value>
+      <webElementGuid>b44b3d87-a1fe-40c1-85a0-613668e95ca3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[3]/preceding::span[3]</value>
+      <webElementGuid>1b559bc7-3f46-4a85-be79-a796ced68b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span/span</value>
+      <webElementGuid>ded551cc-c34d-4a28-906f-e3fb3b9eb97f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'select2-subpermitauthority-0u-container' and @title = '
+												Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal
+											' and (text() = '
+												Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal
+											' or . = '
+												Menteri Investasi / Kepala Badan Koordinasi Penanaman Modal
+											')]</value>
+      <webElementGuid>7167754b-8570-4b02-aa24-e0843c86114c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

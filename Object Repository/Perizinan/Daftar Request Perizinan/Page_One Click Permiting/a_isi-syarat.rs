@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_isi-syarat</name>
+   <tag></tag>
+   <elementGuidId>f9cb2ea2-bfc3-4b5f-8c9f-df0dd150b1fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div[2]/table[2]/tbody/tr[2]/td[6]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-success.btnProses</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Isi Syarat&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ab0f464d-c64e-4b3c-94c1-30843e3564fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ocp-mmsgi.alfahuma.biz.id/daftar-request-perizinan/detail-sub-permit/0199c13b-7baf-7395-8078-13d03fb093b4</value>
+      <webElementGuid>ec957acf-6248-4d39-aa9b-9b1e15064be9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success btnProses</value>
+      <webElementGuid>81c46909-3037-4d72-a5c1-a9a7f12a99ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Isi Syarat</value>
+      <webElementGuid>6cd80e99-bf3a-4854-a0db-bf5fd25a4dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;formDaftar&quot;]/table[@class=&quot;table table-bordered table-sm table-striped dt-responsive nowrap w-100 yajra-datatable mb-4&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-success btnProses&quot;]</value>
+      <webElementGuid>5e7cd8ad-2ecc-4474-904a-793e712d9806</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div[2]/table[2]/tbody/tr[2]/td[6]/a</value>
+      <webElementGuid>decac044-eee6-49e3-ade3-e440c769b798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Isi Syarat')]</value>
+      <webElementGuid>42836155-015e-427e-b14a-6d9038e462de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disetujui'])[2]/following::a[1]</value>
+      <webElementGuid>f87dda14-9f9a-4bb3-b442-4416f7f064c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengelolaan Limbah Sampah'])[1]/following::a[1]</value>
+      <webElementGuid>b7d3b856-398a-477f-8ddf-ffe0c5b6f4bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::a[1]</value>
+      <webElementGuid>b4edbe69-4102-45b3-8287-d1477fc905f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus'])[1]/preceding::a[1]</value>
+      <webElementGuid>940f1611-ae34-45f0-910b-1f689a8916a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Isi Syarat']/parent::*</value>
+      <webElementGuid>bc084881-c999-4eac-b9ab-06e40188eed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://ocp-mmsgi.alfahuma.biz.id/daftar-request-perizinan/detail-sub-permit/0199c13b-7baf-7395-8078-13d03fb093b4')]</value>
+      <webElementGuid>2abe69dd-93c1-4370-bdc0-da748c013ef2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[6]/a</value>
+      <webElementGuid>e150e3a1-6712-4cea-a5c1-6b74c6eb9889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ocp-mmsgi.alfahuma.biz.id/daftar-request-perizinan/detail-sub-permit/0199c13b-7baf-7395-8078-13d03fb093b4' and (text() = 'Isi Syarat' or . = 'Isi Syarat')]</value>
+      <webElementGuid>a10b6e08-5be8-4a9d-b928-e6aed2b389f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

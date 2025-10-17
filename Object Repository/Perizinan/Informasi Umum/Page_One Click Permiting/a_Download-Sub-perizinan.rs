@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Download-Sub-perizinan</name>
+   <tag></tag>
+   <elementGuidId>e17879c7-8d18-4aa9-9971-c775d75f5f79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_1']/tbody/tr[2]/td[8]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td.text-center > a.btn.btn-success.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;MHU Coal Pengelolaan Limbah Perizinan Lingkungan - Pengelolaan Limbah Sampah 34567 2025-10-08 2025-12-30 Menteri Pekerjaan Umum dan Perumahan Rakyat  Download&quot;i] >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0b47f5ae-2651-4a87-9cb2-a1686e01f6a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ocp-mmsgi.alfahuma.biz.id/owncloud/download?path=%2FOCP%2FPerizinan%2FP2025100001%2F0199c0e5-c2e6-71e6-adec-8d32e35c5478%2FTracking%2FTrackingDisetujui.docx&amp;mode=download</value>
+      <webElementGuid>3a46b8e8-2d1f-4935-ad83-b259e7759724</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success btn-sm</value>
+      <webElementGuid>ac51217f-4143-4afc-8940-348f0e034890</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>6226e96f-194a-4a83-a491-5ad07ea16867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+      <webElementGuid>33027917-795c-4d34-aa57-d5b0e368aff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Download</value>
+      <webElementGuid>9b927d3d-5502-491b-ab6a-b9499c56ca8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_1&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-success btn-sm&quot;]</value>
+      <webElementGuid>9dbd9da7-dfa3-4d2c-802e-f8877bd24024</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_1']/tbody/tr[2]/td[8]/a</value>
+      <webElementGuid>533010a7-53a0-4160-9e02-afd23607ad86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Download')])[3]</value>
+      <webElementGuid>1d340cdb-2555-4e83-ac20-485d7fe23534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menteri Pekerjaan Umum dan Perumahan Rakyat'])[1]/following::a[1]</value>
+      <webElementGuid>50b61c30-1791-4bdf-a5f2-554a10f7df4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Lingkungan - Pengelolaan Limbah Sampah'])[1]/following::a[1]</value>
+      <webElementGuid>54d2a61d-4b5c-4c75-9b74-2aa584f864f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan data ke 1 sampai 2 dari 2 total data.'])[1]/preceding::a[1]</value>
+      <webElementGuid>8a76f19d-11a0-4638-8a32-6ab4cdd24df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sebelumnya'])[2]/preceding::a[1]</value>
+      <webElementGuid>aa121b77-5ca7-4143-87cc-0f11346c2be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://ocp-mmsgi.alfahuma.biz.id/owncloud/download?path=%2FOCP%2FPerizinan%2FP2025100001%2F0199c0e5-c2e6-71e6-adec-8d32e35c5478%2FTracking%2FTrackingDisetujui.docx&amp;mode=download')]</value>
+      <webElementGuid>d41bd132-9953-4d96-8d46-960e1adf93ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[8]/a</value>
+      <webElementGuid>7304acd6-2a5a-44be-a626-db76877bf4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ocp-mmsgi.alfahuma.biz.id/owncloud/download?path=%2FOCP%2FPerizinan%2FP2025100001%2F0199c0e5-c2e6-71e6-adec-8d32e35c5478%2FTracking%2FTrackingDisetujui.docx&amp;mode=download' and (text() = ' Download' or . = ' Download')]</value>
+      <webElementGuid>7ff1b6c0-e7b7-4517-ab92-91c3794f3ab8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

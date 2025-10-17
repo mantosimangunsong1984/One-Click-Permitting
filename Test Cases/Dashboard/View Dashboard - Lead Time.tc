@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Dashboard - Lead Time</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bb5653a-3a6e-415a-b0bc-32b10a43d712</testCaseGuid>
+</TestCaseEntity>

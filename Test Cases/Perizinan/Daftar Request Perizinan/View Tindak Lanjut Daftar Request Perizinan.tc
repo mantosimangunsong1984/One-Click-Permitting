@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Tindak Lanjut Daftar Request Perizinan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5a91d24-4ab3-4070-b467-776347458e91</testCaseGuid>
+</TestCaseEntity>
