@@ -25,32 +25,32 @@ WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click 
 
 WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/a_Perubahan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_Pilih-Company'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/span_Pilih-Company_perubahan'))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input__select2-search_company'), 
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
     'MHU Coal')
 
-WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input__select2-search_company'), 
+WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_select2-Jenis-perizinan-yang-diajukan'))
+not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/span_jenis-perizinan-yg-diajukan'))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input_select-perizinan-yg-diajukan'), 
+not_run: WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
     'Perizinan Usaha')
 
-WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input_select-perizinan-yg-diajukan'), 
+not_run: WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input_target-waktu-izin-terbit'), 
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_targetWaktu-perubahan'), 
     '30/11/2025')
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/textarea_Deskripsi'), 'Hanya untuk keperluan testing saja')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/textarea_deskripsi'), 'Hanya untuk keperluan testing saja')
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/button_Ajukan-permohonan'), 
+not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/button_AjukanPerubahan'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

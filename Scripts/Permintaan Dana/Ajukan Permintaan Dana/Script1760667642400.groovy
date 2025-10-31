@@ -34,7 +34,7 @@ WebUI.sendKeys(findTestObject('Permintaan Dana/Ajukan Permintaan Dana/Page_One C
 
 WebUI.click(findTestObject('Permintaan Dana/Ajukan Permintaan Dana/Page_One Click Permiting/span_Izin'))
 
-WebUI.setText(findTestObject('Permintaan Dana/Ajukan Permintaan Dana/Page_One Click Permiting/input_Izin'), 'P2025100003')
+WebUI.setText(findTestObject('Permintaan Dana/Ajukan Permintaan Dana/Page_One Click Permiting/input_Izin'), 'P2025100012')
 
 WebUI.sendKeys(findTestObject('Permintaan Dana/Ajukan Permintaan Dana/Page_One Click Permiting/input_Izin'), Keys.chord(
         Keys.ENTER))

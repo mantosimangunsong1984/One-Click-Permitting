@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Export Excel - Laporan Perizinan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ef765bd-ee12-42db-a3d6-a8da327f643d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Laporan Perizinan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0eb71482-25e0-4ff9-b84e-dea4bf26a290</testCaseGuid>
+</TestCaseEntity>

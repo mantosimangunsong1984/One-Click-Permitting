@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>View Page Daftar Request Perizinan</name>
+   <name>Download File Informasi Umum - Sub Perizinan</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a6396230-9906-4e46-94b1-0d2f31de6175</testCaseGuid>
+   <testCaseGuid>d2b2b0fe-7ad6-4bad-b94d-f05e8e25b3c9</testCaseGuid>
 </TestCaseEntity>

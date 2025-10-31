@@ -6,19 +6,19 @@
    <elementGuidId>d598dacc-40e1-4147-be48-e6bb84292897</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='formCard']/div[4]/textarea</value>
+         <key>CSS</key>
+         <value>#deskripsi</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>textarea.form-control</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='deskripsi']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>textarea</value>
+         <value>#deskripsi</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>aa10141f-c75b-4ee1-b4d9-512026a4dcdd</webElementGuid>
+      <webElementGuid>e8a00553-bae8-4f64-8a83-1b0c83b7d2bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a5ca9128-969b-40ed-9e1d-f60342e1868f</webElementGuid>
+      <webElementGuid>a06261a4-9ec2-4707-bd52-daa37b295890</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +45,47 @@
       <name>rows</name>
       <type>Main</type>
       <value>6</value>
-      <webElementGuid>4589eb0e-00a5-42d7-9776-33a1f1afc980</webElementGuid>
+      <webElementGuid>616272ea-ddd5-412e-8e25-e6bfe3da8062</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;deskripsi&quot;)</value>
+      <webElementGuid>cfd1670b-ae9b-438a-b300-440b5faa1318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>id(&quot;formCard&quot;)/div[@class=&quot;mb-3&quot;]/textarea[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>c380a82a-61e9-432e-8a11-a40c7360467e</webElementGuid>
+      <value>deskripsi</value>
+      <webElementGuid>08dd50bb-146b-4d88-b13f-1bef6b7fe60a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>permitdesc</value>
+      <webElementGuid>0bfbd269-aa22-4289-85dc-aa367462e7e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@id='deskripsi']</value>
+      <webElementGuid>d4014acb-d608-4010-9ee1-342a6a5fb440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='formCard']/div[4]/textarea</value>
-      <webElementGuid>7f93f881-b167-47bc-a7ec-f9b58012357b</webElementGuid>
+      <value>//form[@id='form-permohonan-perpanjangan']/div/div[4]/textarea</value>
+      <webElementGuid>474b9850-bb53-4ec8-b5eb-8780974c56ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +93,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>54171220-1107-48a0-b403-88dd1c76f469</webElementGuid>
+      <webElementGuid>e47bdc25-c3f0-433a-9fd1-5e68b6e27946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'deskripsi' and @name = 'permitdesc']</value>
+      <webElementGuid>4db73aa4-62dc-47b0-97bc-7260798b21cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formCard']/div[4]/textarea</value>
+      <webElementGuid>7f93f881-b167-47bc-a7ec-f9b58012357b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

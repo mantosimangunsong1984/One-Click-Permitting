@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Page Reporting - Reporting Detail - Laporan Perizinan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d333c95-d699-4070-aebd-904c9f8a792d</testCaseGuid>
+</TestCaseEntity>

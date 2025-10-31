@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Rencana-(Tahun)</name>
+   <tag></tag>
+   <elementGuidId>1a72fc9c-e509-40d2-b702-3424d785d235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#filter-yearplan</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='filter-yearplan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Rencana (Tahun)&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>82bcffdb-4d92-4c97-9eb0-bfd75d844151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select form-filter</value>
+      <webElementGuid>6c506c77-6cd1-4443-8a9f-b02718c9f93b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>filter-yearplan</value>
+      <webElementGuid>9915eeb7-9205-41d7-8b2e-06e33a081416</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>filter[rep.yearplan]</value>
+      <webElementGuid>66738c57-3617-43eb-bb2a-d770443b4a58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        --- Pilih ---
+                                                                                    2025
+                                                                                    2027
+                                                                            </value>
+      <webElementGuid>4b7b1e71-3db7-4b5f-b20f-09f96bb33b22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;filter-yearplan&quot;)</value>
+      <webElementGuid>2a1b49fc-aa56-4a95-b089-4b6d54d9495a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='filter-yearplan']</value>
+      <webElementGuid>fc34e542-b6c7-4d31-8103-f23c97b4a7a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='reporting-detail-content']/div/div/div/div/div/div[4]/div/select</value>
+      <webElementGuid>b23a3fb3-0c42-4884-8f1d-008fc77b38db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rencana (Tahun)'])[1]/following::select[1]</value>
+      <webElementGuid>b89f1fba-0e3b-4e73-b78e-fa98d358eacd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rencana'])[1]/following::select[2]</value>
+      <webElementGuid>902be00b-83ee-40e3-8c13-3b45f54338be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::select[1]</value>
+      <webElementGuid>8330a1b1-de7e-4a42-938b-a4d259fe73e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/select</value>
+      <webElementGuid>11c860ef-4a47-40e6-ab93-0df1dd887de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'filter-yearplan' and @name = 'filter[rep.yearplan]' and (text() = '
+                                        --- Pilih ---
+                                                                                    2025
+                                                                                    2027
+                                                                            ' or . = '
+                                        --- Pilih ---
+                                                                                    2025
+                                                                                    2027
+                                                                            ')]</value>
+      <webElementGuid>933d56b0-5208-4acc-b30b-03843030cbdd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

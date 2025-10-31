@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Reporting-Download</name>
+   <tag></tag>
+   <elementGuidId>82a1353a-7133-40eb-9457-874b061f78d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='topnav-menu-content']/ul/li[5]/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Reporting Download&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>77c62390-388b-4554-9cd3-05924522af79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ocp-mmsgi.alfahuma.biz.id/download-reporting</value>
+      <webElementGuid>f20d782d-5cc1-4875-aeda-55494736b6b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>a0922f6d-0404-44c0-85aa-565fa31d127b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>key</name>
+      <type>Main</type>
+      <value>t-81</value>
+      <webElementGuid>6da446cb-9b47-4fc5-ba10-71b6d08280b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            Reporting Download
+                                                        </value>
+      <webElementGuid>b690554c-9cb8-466d-b669-263c1d12e63f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topnav-menu-content&quot;)/ul[@class=&quot;navbar-nav active&quot;]/li[@class=&quot;nav-item dropdown&quot;]/div[@class=&quot;dropdown-menu active&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>1ed69a79-d0e4-4bb6-82b0-2ec3299e97db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='topnav-menu-content']/ul/li[5]/div/a[2]</value>
+      <webElementGuid>8b42909a-a6f5-40b0-bee2-99986183e469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Reporting Download')]</value>
+      <webElementGuid>8ccd8fcb-665e-4488-bc57-af67447a5a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting Detail'])[1]/following::a[1]</value>
+      <webElementGuid>258a3e4a-6918-4805-b738-16d073a0a8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::a[2]</value>
+      <webElementGuid>c7a06639-9798-4f1f-8e77-5850910fc9c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Reporting'])[1]/preceding::a[1]</value>
+      <webElementGuid>7f636ece-9c17-4fb5-aa8b-1bb2fc2cec19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Reporting'])[1]/preceding::a[1]</value>
+      <webElementGuid>0a3e609c-fd17-4efa-82a9-12e4081d998c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reporting Download']/parent::*</value>
+      <webElementGuid>f91501f3-8b50-4f8b-9d62-4badcf0adcd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://ocp-mmsgi.alfahuma.biz.id/download-reporting')]</value>
+      <webElementGuid>bbf4909d-3c0c-4952-a868-a0a0b897ff3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/a[2]</value>
+      <webElementGuid>34efe42f-19be-47cc-a3c8-10f264389e48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ocp-mmsgi.alfahuma.biz.id/download-reporting' and (text() = '
+                                                            Reporting Download
+                                                        ' or . = '
+                                                            Reporting Download
+                                                        ')]</value>
+      <webElementGuid>d148e8db-e461-4a27-b175-793d669c4db6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

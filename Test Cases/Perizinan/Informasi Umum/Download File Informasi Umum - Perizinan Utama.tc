@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Download File Informasi Umum - Perizinan Utama</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8520f863-0970-48a2-b5d7-06fab1c2dcf5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Page Kewajiban Pelaporan - Arsip Kewajiban Pelaporan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>701b4751-6a04-432d-8c93-f97629a82199</testCaseGuid>
+</TestCaseEntity>

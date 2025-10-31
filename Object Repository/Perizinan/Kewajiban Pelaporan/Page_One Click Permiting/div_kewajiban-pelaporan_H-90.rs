@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_kewajiban-pelaporan</name>
+   <name>div_kewajiban-pelaporan_H-90</name>
    <tag></tag>
    <elementGuidId>c8da27bd-6ae5-4708-8e96-5fee7b175d14</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.card.card-link.border.bg-success-subtle > div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

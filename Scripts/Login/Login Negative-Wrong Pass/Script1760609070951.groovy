@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://ocp-mmsgi.alfahuma.biz.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login/Page_Login  One Click Permiting/input_Member Login_username'), 'smartsoft')
+WebUI.setText(findTestObject('Login/Page_Login  One Click Permiting/input_Member Login_username'), 'smartsoft@gmail.com')
 
 WebUI.setText(findTestObject('Login/Page_Login  One Click Permiting/input_Member Login_userpassword'), 'cjcjajposxk')
 

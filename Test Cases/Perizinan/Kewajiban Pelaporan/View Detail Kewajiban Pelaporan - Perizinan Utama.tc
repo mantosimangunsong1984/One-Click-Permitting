@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Detail Kewajiban Pelaporan - Perizinan Utama</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1488a41-3629-4345-904e-a120217be3c9</testCaseGuid>
+</TestCaseEntity>

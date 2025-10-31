@@ -21,20 +21,11 @@ WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.ST
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/span_Perizinan'))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/a_Daftar-request-perizinan'))
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/a_Kewajiban-pelaporan'))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/span_Company-select'))
+WebUI.verifyTextPresent('Kewajiban Pelaporan', false)
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_select-search_company'), 
-    'MHU Coal')
-
-WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_select-search_company'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/div_Filter-Data'))
-
-WebUI.selectOptionByLabel(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/select_DataTables'), 
-    '50', false)
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/div_Detail-perizinan-Utama'))
 
 WebUI.delay(3)
 
