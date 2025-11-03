@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_CategoryPermitName_EDIT'), 'TestingCreateCategoryPermit')
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/textarea_CategoryPermitDesc'), 'KebutuhanTestingSaja')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/textarea_CategoryPermitDesc'), 'Untuk Kebutuhan Testing Saja')
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/span_KBLI_select'), FailureHandling.STOP_ON_FAILURE)
 

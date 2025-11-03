@@ -21,23 +21,19 @@ WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.ST
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.scrollToElement(findTestObject('Dashboard/Page_One Click Permiting/div_InformasiProsesPerizinan'), 5)
+WebUI.scrollToElement(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_LEAD TIMEPENGURUSAN IZIN'), 3)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_InformasiProsesPerizinan'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_LEAD TIMEPENGURUSAN IZIN'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-SVG_InformasiProsesPerizinan'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/button_Detail Lead Time  Pengurusan Izin_btn-close'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_LEAD TIMEPENGUMPULAN DOKUMEN'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_InformasiProsesPerizinan'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/button_Detail Lead Time  Pengumpulan Dokumen_btn-close'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-PNG_InformasiProsesPerizinan'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_LEAD TIMEPEMBAYARAN'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_InformasiProsesPerizinan'))
-
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-CSV_InformasiProsesPerizinan'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/button_Detail Lead Time  Pembayaran_btn-close'))
 
 WebUI.delay(3)
 

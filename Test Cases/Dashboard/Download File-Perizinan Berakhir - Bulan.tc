@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tambah Type Authority</name>
+   <name>Download File-Perizinan Berakhir - Bulan</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c07213af-49a1-4d8b-8a3c-4044c4279b7c</testCaseGuid>
+   <testCaseGuid>07896b5d-a99b-4331-921c-9aa6d018da2a</testCaseGuid>
 </TestCaseEntity>

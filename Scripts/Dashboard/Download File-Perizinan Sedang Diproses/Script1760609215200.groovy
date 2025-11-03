@@ -19,15 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/span_Perizinan'))
+WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/a_Kewajiban-pelaporan'))
+WebUI.scrollToElement(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanSedangDiproses'), 5)
 
-WebUI.verifyTextPresent('Kewajiban Pelaporan', false)
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanSedangDiproses'))
 
-WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/div_kewajiban-pelaporanH-30'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_SVG_PerizinanSedangDiproses'))
 
-WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/div_Riwayat_Dok-Pelaporan'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanSedangDiproses'))
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PNG_PerizinanSedangDiproses'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanSedangDiproses'))
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_CSV_PerizinanSedangDiproses'))
 
 WebUI.delay(3)
 

@@ -21,23 +21,23 @@ WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.ST
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.scrollToElement(findTestObject('Dashboard/Page_One Click Permiting/div_Download-InformasiPezininanAkanHabis'), 5)
+WebUI.scrollToElement(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Bulan'), 5)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-InformasiPezininanAkanHabis'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Bulan'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-SVG-InformasiPezininanAkanHabis'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-InformasiPezininanAkanHabis'))
-
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-PNG-InformasiPezininanAkanHabis'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_SVG_PerizinanBerakhir-Bulan'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-InformasiPezininanAkanHabis'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Bulan'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Download-CSV-InformasiPezininanAkanHabis'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PNG_PerizinanBerakhir-Bulan'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Bulan'))
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_CSV_PerizinanBerakhir-Bulan'))
 
 WebUI.delay(3)
 

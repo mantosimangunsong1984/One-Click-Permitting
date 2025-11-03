@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Download File-InfoPerizinanBerdasarkanJenis</name>
+   <name>View Detail Kewajiban Pelaporan - Perizinan Utama - Tambah Kewajiban</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8b39a537-c479-4094-ac74-8b72f405914b</testCaseGuid>
+   <testCaseGuid>e95358a6-71d4-4677-b23e-80a05ef57420</testCaseGuid>
 </TestCaseEntity>

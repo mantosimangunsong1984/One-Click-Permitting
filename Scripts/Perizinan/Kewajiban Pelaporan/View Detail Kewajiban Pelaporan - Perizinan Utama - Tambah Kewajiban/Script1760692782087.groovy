@@ -31,7 +31,38 @@ WebUI.sendKeys(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Perm
 
 WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/div_Detail-perizinan-Utama'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/button_TambahKewajiban'))
+
+WebUI.setText(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_Nama Kewajiban_pelaporan'), 
+    'Kewajiban Testing')
+
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/span_Periode-tambah-kewajiban-pelaporan'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_select-tambah-kewajiban-pelaporan'), 
+    'Tahunan')
+
+WebUI.sendKeys(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_select-tambah-kewajiban-pelaporan'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/span_Penanggung Jawab'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_select-tambah-kewajiban-pelaporan'), 
+    'Legal')
+
+WebUI.sendKeys(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_select-tambah-kewajiban-pelaporan'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/input_Tanggal Submit Dokumen'), 
+    '31/10/2025')
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/button_Simpan_Tambah-Kew_Pelaporan'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

@@ -21,19 +21,23 @@ WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.ST
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.scrollToElement(findTestObject('Dashboard/Page_One Click Permiting/div_Lead Time_Pengurusan-Izin'), 3)
+WebUI.scrollToElement(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Hari'), 5)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead Time_Pengurusan-Izin'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Hari'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_SVG_PerizinanBerakhir-Hari'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead-Time-Pengumpulan-dokumen'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Hari'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead-Time-Pembayaran'))
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PNG_PerizinanBerakhir-Hari'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_PerizinanBerakhir-Hari'))
+
+WebUI.click(findTestObject('Dashboard/New-Dashboard/Page_One Click Permiting/div_CSV_PerizinanBerakhir-Hari'))
 
 WebUI.delay(3)
 

@@ -27,6 +27,8 @@ WebUI.verifyTextPresent('Kewajiban Pelaporan', false)
 
 WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/div_Arsip-kewajiban-pelaporan'))
 
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Tambah Kewajiban Pelaporan/Page_One Click Permiting/div_Riwayat_Dok-Pelaporan'))
+
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
