@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Simpan_Add Kewajiban Pelaporan</name>
+   <tag></tag>
+   <elementGuidId>a05dd676-d913-48c4-8b49-a386e51f8cbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-save</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form-modal-modalKewajibanPelapor']/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Simpan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b1709205-96a2-4664-a584-ee2fbda32654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-save</value>
+      <webElementGuid>9a0e77d5-d626-4992-a11b-a174d64f7bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-modal-modalKewajibanPelapor&quot;)/div[@class=&quot;modal-footer text-end&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]/i[@class=&quot;fa fa-save&quot;]</value>
+      <webElementGuid>7a1d2a87-b13b-4728-9bfa-b9e5bb6aa30e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form-modal-modalKewajibanPelapor']/div[2]/button/i</value>
+      <webElementGuid>220c5164-511a-4a1a-b73f-8085690f6056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/button/i</value>
+      <webElementGuid>84f91f5b-b93a-4ec3-a4ca-add2ec5c2701</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
