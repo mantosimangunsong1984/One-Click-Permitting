@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiti
 
 WebUI.verifyTextPresent('Kewajiban Pelaporan', false)
 
-WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/div_Detail-perizinan-Utama'))
+WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permitting/i_Detail_Perizinan-Utama'))
 
 WebUI.delay(3)
 

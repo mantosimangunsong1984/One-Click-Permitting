@@ -25,13 +25,13 @@ WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/a_
 
 WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/span_Entitas_select'))
 
-WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), 'MHU Coal')
+WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), 'MMS Group Indonesia')
 
 WebUI.sendKeys(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/span_Jenis-Perizinan'))
 
-WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), 'Perizinan Usaha')
+WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), '05100')
 
 WebUI.sendKeys(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Entitas'), Keys.chord(Keys.ENTER))
 

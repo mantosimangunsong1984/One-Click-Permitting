@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/a_
 
 WebUI.verifyTextPresent('Informasi Umum', false)
 
-WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Cari_Data'), '4536363')
+WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Cari_Data'), 'P2025120004')
 
 WebUI.sendKeys(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Ajukan Permintaan Dana</name>
+   <name>View Detail Kewajiban Pelaporan - Perizinan Utama - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>706a258f-d5ae-49ee-ab75-f3a29f5dfc0a</testCaseGuid>
+   <testCaseGuid>d9e71b61-ccb3-4c28-98fa-958609b443f8</testCaseGuid>
 </TestCaseEntity>

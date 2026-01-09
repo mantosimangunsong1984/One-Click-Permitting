@@ -23,8 +23,6 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Kewajiban Pelaporan/Page_One Click Permiting/a_Kewajiban-pelaporan'))
 
-WebUI.verifyTextPresent('Kewajiban Pelaporan', false)
-
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()

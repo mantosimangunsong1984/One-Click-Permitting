@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filtering Data Informasi Umum</name>
+   <name>Filter Kewajiban Pembayaran</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5fb78d37-5de5-4d93-bdeb-6a6396237557</testCaseGuid>
+   <testCaseGuid>8d94f785-ee83-4964-95c6-7b92e1f987c0</testCaseGuid>
 </TestCaseEntity>
