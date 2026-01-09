@@ -19,41 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_peizinan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/span_Perizinan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_Permohonan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/span_Permohonan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/a_Perubahan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/a_Perubahan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/span_Pilih-Company_perubahan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/span_company'))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
-    'MHU Coal')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/input_company'), 'MMS Group Indonesia')
 
-WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/input_company'), Keys.chord(
+        Keys.ENTER))
 
-not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/span_jenis-perizinan-yg-diajukan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/span_jenis-perizinan-yg-diajukan'))
 
-not_run: WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
-    'Perizinan Usaha')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/input_company'), '46900')
 
-not_run: WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_select-company-perubahan'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/input_company'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/input_targetWaktu-perubahan'), 
-    '30/11/2025')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/input__targetWaktu'), 
+    '30/11/2027')
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/textarea_deskripsi'), 'Hanya untuk keperluan testing saja')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/textarea_deskripsi'), 
+    'Hanya untuk keperluan testing saja')
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permiting/button_AjukanPerubahan'), 
+not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perubahan/Page_One Click Permitting/i_Ajukan-Perubahan'), 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
 
 WebUI.closeBrowser()
 

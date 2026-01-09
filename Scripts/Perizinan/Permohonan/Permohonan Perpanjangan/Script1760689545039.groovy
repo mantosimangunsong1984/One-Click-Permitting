@@ -19,41 +19,40 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_peizinan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/span_perizinan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_Permohonan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permitting/span_Permohonan'))
 
 WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/a_Perpanjangan'))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/span_Pilih-Company'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/span_company'))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/input_Pilih-company'), 
-    'MHU Coal')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/input_Company'), 
+    'MMS Group Indonesia')
 
-WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/input_Pilih-company'), 
+WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/input_Company'), 
     Keys.chord(Keys.ENTER))
 
-not_run: WebUI.selectOptionByLabel(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/select_jenis-perizinan-yg-diajukan'), 
-    '', false)
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/span_Jenis-perizinan-yg-diajukan'))
 
-not_run: WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/select_jenis-perizinan-yg-diajukan'), 
-    'Perizinan Usaha')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/input_Company'), 
+    '46900')
 
-not_run: WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/select_jenis-perizinan-yg-diajukan'), 
+WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/input_Company'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/input_target-waktu-perizinan-terbit'), 
-    '30/11/2025')
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/input_targetWaktu'), 
+    '30/11/2026')
 
-WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/textarea_Deskripsi'), 
-    'Hanya untuk keperluan testing saja')
-
-WebUI.takeFullPageScreenshot()
+WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/textarea__deskripsi'), 
+    'Testing Perpanjangan Izin')
 
 WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Page_One Click Permiting/button_AjukanPerpanjangan'), 
+not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan perpanjangan/Permohonan perpanjangan 2/Page_One Click Permitting/i_Ajukan-Perpanjangan'), 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.delay(3)
 

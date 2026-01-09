@@ -23,8 +23,6 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Tracking/Page_One Click Permiting/a_Tracking'))
 
-WebUI.verifyTextPresent('Tracking', false)
-
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()

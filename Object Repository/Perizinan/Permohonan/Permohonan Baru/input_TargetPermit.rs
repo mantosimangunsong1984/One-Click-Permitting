@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_permitdesc</name>
+   <name>input_TargetPermit</name>
    <tag></tag>
-   <elementGuidId>cdd0af05-4022-4545-afb4-bb7ed31c401a</elementGuidId>
+   <elementGuidId>56bad2d6-c632-40f4-a85c-b355f107ed41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>textarea[name=&quot;permitdesc&quot;]</value>
+         <value>input[name=&quot;permittargettime&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@name='permitdesc']</value>
+         <value>//input[@name='permittargettime']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>textarea[name=&quot;permitdesc&quot;]</value>
+         <value>input[name=&quot;permittargettime&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,8 +28,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>98a93311-d472-44f5-a463-550dd419b2a7</webElementGuid>
+      <value>input</value>
+      <webElementGuid>325cac5d-6363-4a0d-a8b2-189d1d7d0300</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>73c68d24-4455-4487-9d31-759e402bc310</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,62 +45,62 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>6bdff668-f54a-46a3-adf1-106455bc4f83</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>6</value>
-      <webElementGuid>efe9c7a1-b185-4af8-9ff5-9b98cf93224c</webElementGuid>
+      <webElementGuid>8b123550-9027-486a-8343-6d63d5d36f16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>permitdesc</value>
-      <webElementGuid>f5496186-4da3-42db-ad5f-2fbdaedda635</webElementGuid>
+      <value>permittargettime</value>
+      <webElementGuid>307a6cd6-5c20-42c2-9727-39e46cf8ce13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2026-01-09</value>
+      <webElementGuid>aff07d9c-7e1f-4115-92b5-5fa54c54ef3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form-permohonan-baru&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-3&quot;]/textarea[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>1663bfbc-1fb1-447c-b4ef-0b34db09a6ab</webElementGuid>
+      <value>id(&quot;form-permohonan-baru&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>c9882e11-470c-49de-9f58-18717306c9dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@name='permitdesc']</value>
-      <webElementGuid>f5a792ef-5f98-40bd-8ca3-e154589df922</webElementGuid>
+      <value>//input[@name='permittargettime']</value>
+      <webElementGuid>c31d0977-bdd6-4b13-ac74-1c0c37231c17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form-permohonan-baru']/div/div[4]/textarea</value>
-      <webElementGuid>7c501a5f-91f3-41f1-ad09-38cc1402cd6e</webElementGuid>
+      <value>//form[@id='form-permohonan-baru']/div/div[3]/input</value>
+      <webElementGuid>10ce0fbf-f4f6-4f06-a36c-e7008500e8b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>7351e9b9-4759-44e3-ab71-98f8b95443e9</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>7f39aae9-9add-4d97-805d-089edd352811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@name = 'permitdesc']</value>
-      <webElementGuid>2a4b0464-923c-42b4-8c2c-e53030005d4e</webElementGuid>
+      <value>//input[@type = 'date' and @name = 'permittargettime']</value>
+      <webElementGuid>a6235e6f-2501-43d7-a089-8e459a0701c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
