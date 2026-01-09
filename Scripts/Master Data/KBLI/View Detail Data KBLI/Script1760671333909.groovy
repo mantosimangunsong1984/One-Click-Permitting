@@ -25,9 +25,11 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.verifyTextPresent('KBLI', false)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), '42912')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    '69102')
 
-WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Detail'), FailureHandling.STOP_ON_FAILURE)
 

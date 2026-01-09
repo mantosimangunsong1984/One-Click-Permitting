@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Detail_PerizinanSedangDiproses</name>
+   <tag></tag>
+   <elementGuidId>80511c62-f37f-41a4-b3ba-f067f48ac18e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr/td[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-info.btn-sm.m-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;P2025100003 Baru MHU Coal Legal OCP 2025-10-08 2025-10-23 Perizinan Usaha Perizinan Sedang Diproses (1)  Detail&quot;i] >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f34fafe4-c1f4-42eb-9c84-d28f454ca612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ocp-mmsgi.alfahuma.biz.id/tracking/detail/0199c21f-a7f3-7344-a81b-0c13680db914</value>
+      <webElementGuid>82365f3d-4468-443d-9959-10e31cbd76c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info btn-sm m-1</value>
+      <webElementGuid>f6659cc1-e905-4022-92f1-dd82e50c982c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                     Detail
+                </value>
+      <webElementGuid>84840671-1ffd-42c6-b5b0-9167a0f1b044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-info btn-sm m-1&quot;]</value>
+      <webElementGuid>929a2a03-bce9-46c0-a599-5eb256ae5e81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr/td[9]/a</value>
+      <webElementGuid>c2145891-24f3-4c53-8a10-a1e62b1658e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Sedang Diproses (1)'])[1]/following::a[1]</value>
+      <webElementGuid>5e5cf528-e429-439f-9a46-2a2916f22055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Usaha'])[1]/following::a[1]</value>
+      <webElementGuid>9d15cde1-f652-4d79-ac51-60859c199cfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P2025100008'])[1]/preceding::a[1]</value>
+      <webElementGuid>249c951c-84bc-412f-b341-751c9d7aeb74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[3]/preceding::a[1]</value>
+      <webElementGuid>796d4342-f0f5-4536-9753-7089048a10f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail']/parent::*</value>
+      <webElementGuid>8c6b100d-3a61-4463-969c-e555695a233c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://ocp-mmsgi.alfahuma.biz.id/tracking/detail/0199c21f-a7f3-7344-a81b-0c13680db914')]</value>
+      <webElementGuid>a442252e-0a5d-4eaa-9001-d743fcd3152b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>3ee8df79-497b-46c1-b0c5-5461cd2e747b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ocp-mmsgi.alfahuma.biz.id/tracking/detail/0199c21f-a7f3-7344-a81b-0c13680db914' and (text() = '
+                     Detail
+                ' or . = '
+                     Detail
+                ')]</value>
+      <webElementGuid>ba8fe87d-17b1-4701-9fc3-736e145ed0db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

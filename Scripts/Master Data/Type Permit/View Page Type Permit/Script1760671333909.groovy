@@ -27,7 +27,7 @@ WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One C
     '50', false)
 
 WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
-    'Testing', FailureHandling.STOP_ON_FAILURE)
+    'Nikel', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
     Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
@@ -44,20 +44,17 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/span_KBLI_select'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), 'Testing Rubah Data KBLI Existing')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), 'Pertambangan Bijih Nikel')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/span_CategoryPermit-Edit'))
-
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), 'Perizinan Usaha')
-
-WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), Keys.chord(
-        Keys.ENTER))
-
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/div_FilterData'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

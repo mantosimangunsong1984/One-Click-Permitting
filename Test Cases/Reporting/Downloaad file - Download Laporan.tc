@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Downloaad file - Download Laporan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>edd25f2a-2f37-490c-8c8f-2a8b99ddabb0</testCaseGuid>
+</TestCaseEntity>

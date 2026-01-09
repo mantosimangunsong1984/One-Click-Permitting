@@ -23,12 +23,12 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/a_Daftar-request-perizinan'))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025100007')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025120001')
 
 WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/div_Tindak-Lanjut'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permitting/i_Tindak Lanjut'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

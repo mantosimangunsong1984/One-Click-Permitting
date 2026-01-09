@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Disclaimer</name>
+   <tag></tag>
+   <elementGuidId>df59009a-ffe5-481f-ac2b-1b552118cca7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cardInformasi']/div[2]/div[4]/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i] >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0b5a6f2a-7cae-489c-a313-ce1def32fdb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-alt</value>
+      <webElementGuid>af7c5612-7b6a-4996-8c4f-db96c4b13c40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cardInformasi&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 mb-3&quot;]/div[@class=&quot;border-custom p-2&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center&quot;]/button[@class=&quot;btn btn-warning btn-sm&quot;]/i[@class=&quot;fa fa-pencil-alt&quot;]</value>
+      <webElementGuid>2ddcbc64-f566-4e04-b323-0ab2a2b0deae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cardInformasi']/div[2]/div[4]/div/div/button/i</value>
+      <webElementGuid>09aebb83-3fa8-4092-be7c-6e83b0045870</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/button/i</value>
+      <webElementGuid>9e12a17b-61a9-4e30-a83e-2af421968cca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

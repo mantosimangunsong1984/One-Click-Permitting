@@ -23,34 +23,40 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/a_Daftar-request-perizinan'))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025100007')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025120001')
 
 WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/div_Tindak-Lanjut'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/button_Tambah-perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Page_One Click Permitting/Page_One Click Permitting/i_Tindak Lanjut'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Sub-Perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/button_Tambah-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/span_Jenis-Perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/input_Sub-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Jenis-perizinan-select'), 
-    '68111')
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/span_select-perizinan-utama'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Jenis-perizinan-select'), 
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/input_select'), 
+    'Testing Nama Izin')
+
+WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/input_select'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Nama-Izin'), 
-    'Testing Tambah Sub Perizinan ')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/input_Nama Izin'), 
+    'Testing Tambah Sub Perizinan - 2')
+
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Tambah Sub Perizinan/Page_One Click Permitting/i_Simpan'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

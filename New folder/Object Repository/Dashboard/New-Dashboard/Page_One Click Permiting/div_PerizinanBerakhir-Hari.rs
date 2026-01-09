@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PerizinanBerakhir-Hari</name>
+   <tag></tag>
+   <elementGuidId>02a7b2d6-f26c-4e90-a4db-30874976d66f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='apexchartsmx775tro']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#apexchartsmx775tro > div.apexcharts-toolbar > div.apexcharts-menu-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#apexchartsmx775tro >> internal:attr=[title=&quot;Menu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>008c6252-2fc9-4410-b728-c1eaef0f5b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>apexcharts-menu-icon</value>
+      <webElementGuid>11b70cef-8778-4876-9375-cbfcdb9d8c78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Menu</value>
+      <webElementGuid>5d8a569b-5024-426d-9ea5-88f3a2d9ec08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;apexchartsmx775tro&quot;)/div[@class=&quot;apexcharts-toolbar&quot;]/div[@class=&quot;apexcharts-menu-icon&quot;]</value>
+      <webElementGuid>f63d363c-9d6c-4eab-b513-829b549e59c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='apexchartsmx775tro']/div[2]/div</value>
+      <webElementGuid>e6f9d1bf-fd96-49f6-a365-f6ac23d0df73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Berakhir'])[2]/following::div[32]</value>
+      <webElementGuid>7cae83e8-5b70-415c-8dfa-5d6b49e23c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download CSV'])[2]/following::div[34]</value>
+      <webElementGuid>45cd2bb5-8c03-4d4e-8e81-713d0f311c55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download SVG'])[3]/preceding::div[1]</value>
+      <webElementGuid>d2f7ed97-4eee-442d-bad4-24f8c0b1a27c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download PNG'])[3]/preceding::div[2]</value>
+      <webElementGuid>67ffef79-43f9-468a-ad7c-65b653c19a34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>af0b8c41-5545-40c8-bb34-e57c5e148166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Menu']</value>
+      <webElementGuid>bf7752e7-2ec4-4119-b37d-54fdcd0b09a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

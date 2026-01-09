@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Download-SVG-PA</name>
+   <tag></tag>
+   <elementGuidId>41ac8e4e-4ab1-41df-bbaf-eff10639944b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.apexcharts-menu-item.exportSVG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='apexchartsfh78kppz']/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#apexchartsfh78kppz >> internal:text=&quot;Download SVG&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39ec7de0-7cab-4553-9d81-a2ebbc9aaf34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>apexcharts-menu-item exportSVG</value>
+      <webElementGuid>65ae03e2-2fb2-4cbc-89e3-949458ca7af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Download SVG</value>
+      <webElementGuid>12f4d691-2196-4b8d-bb10-aa5504105de3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download SVG</value>
+      <webElementGuid>ac3ac41c-6e2d-4fd7-b6a5-573f0b2f3e65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;apexchartsfh78kppz&quot;)/div[@class=&quot;apexcharts-toolbar&quot;]/div[@class=&quot;apexcharts-menu apexcharts-menu-open&quot;]/div[@class=&quot;apexcharts-menu-item exportSVG&quot;]</value>
+      <webElementGuid>3e2b9ff2-c752-409e-9bae-ebffaedcc4a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='apexchartsfh78kppz']/div[3]/div[2]/div</value>
+      <webElementGuid>b16f1c47-7706-4580-b4c4-333f1b9411b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perdagangan dan Usaha Umum'])[1]/following::div[13]</value>
+      <webElementGuid>9e359f5a-a598-4646-810f-31cc06a2a581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Aktif'])[1]/following::div[16]</value>
+      <webElementGuid>945ab7ac-98c4-4fa3-a8e9-5e5e55855d25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download PNG'])[1]/preceding::div[1]</value>
+      <webElementGuid>162272b1-3407-47d6-8f40-b6e842b5788b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download CSV'])[1]/preceding::div[2]</value>
+      <webElementGuid>d60b455b-a598-4d6e-b2f2-5386619e81eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download SVG']/parent::*</value>
+      <webElementGuid>48e8004e-690f-449a-ac04-3c7daeea2aa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>97d759a8-dd27-4122-95f0-4542103d50f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Download SVG' and (text() = 'Download SVG' or . = 'Download SVG')]</value>
+      <webElementGuid>ae218d3d-d2c4-4d2a-b5ca-7e70f4698a32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

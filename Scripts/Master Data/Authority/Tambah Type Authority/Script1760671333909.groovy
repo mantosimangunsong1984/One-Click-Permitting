@@ -25,7 +25,9 @@ WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/a_Aut
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Tambah'))
 
-WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Authority-Name_Edit'), 'Testing Authority 2')
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Authority-Name_Edit'), 'Testing Authority QC')
+
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permitting/input_Authority Name (ENG)'), 'Testing Authority 2')
 
 WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/textarea_Authority-Description_Edit'), 'Untuk Keperluan Testing Authority')
 

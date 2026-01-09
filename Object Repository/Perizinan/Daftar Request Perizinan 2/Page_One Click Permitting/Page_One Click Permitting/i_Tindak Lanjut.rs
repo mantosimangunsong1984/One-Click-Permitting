@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Tindak Lanjut</name>
+   <tag></tag>
+   <elementGuidId>26cd1066-9328-4153-b71a-7c6775b44544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-eye.font-size-16.align-middle.me-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr/td[9]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;P2025120001 Baru MMS Group Indonesia Arlene Alishya Audrey 2025-12-10 2025-12-17 Perdagangan dan Usaha Umum Input Kelengkapan Syarat 󰈈 Tindak Lanjut&quot;i] >> i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>12912afd-ac36-4f75-8f6e-7cdee28fc91a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-eye font-size-16 align-middle me-1</value>
+      <webElementGuid>3c51b036-0b93-4943-82fd-66330bc64135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center&quot;]/div[@class=&quot;btn btn-warning btn-sm&quot;]/i[@class=&quot;mdi mdi-eye font-size-16 align-middle me-1&quot;]</value>
+      <webElementGuid>e441c145-e64e-4ecf-811b-7fabef530344</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr/td[9]/div/i</value>
+      <webElementGuid>1316bbd9-1ea8-4bac-b7ac-4a939f8dfa99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/div/i</value>
+      <webElementGuid>62aff188-724b-492b-903e-5cd768c66216</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

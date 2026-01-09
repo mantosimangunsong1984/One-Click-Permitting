@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jenis-Perizinan_select-Edit</name>
+   <tag></tag>
+   <elementGuidId>8a666d64-4d59-4aca-9cd5-3f596e41bfa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-categorypermitid-nl-container']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-categorypermitid-nl-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;Perizinan Lingkungan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>afdd893f-bf8e-45d7-8f65-34b2c4af6778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__rendered</value>
+      <webElementGuid>7f237cbb-96e9-4c55-9559-09248f23172b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-categorypermitid-nl-container</value>
+      <webElementGuid>e433b45e-c69d-4b1e-a025-4fe45096482f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>textbox</value>
+      <webElementGuid>fc21c897-7f48-49f3-998b-f2131ca25c02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-readonly</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>28ae0ed2-f832-42a9-87d9-805ac47cd62f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>
+											Perizinan Lingkungan
+										</value>
+      <webElementGuid>cd116218-5e17-4b47-abe1-3dfe40c2dbb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+											Perizinan Lingkungan
+										</value>
+      <webElementGuid>8098d8c5-8c72-40b6-83ec-05f3795d510d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-categorypermitid-nl-container&quot;)</value>
+      <webElementGuid>51741a0d-36c4-4a17-84e3-2f35361cdf09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='select2-categorypermitid-nl-container']</value>
+      <webElementGuid>bf5b52f3-a0e7-4c57-b47b-cfb1431897ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modalContent']/div/div[2]/span/span/span/span</value>
+      <webElementGuid>789e8b2f-3bdf-437f-a0ae-00ff38ecffbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Perizinan'])[4]/following::span[4]</value>
+      <webElementGuid>71619fd2-b95b-4b3f-9f10-1fc7f7f0c668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Klasifikasi Request Perizinan Menurut Legal/CPA'])[1]/following::span[4]</value>
+      <webElementGuid>0938cdd5-6bc4-4466-b51c-8423a8bbd837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target Waktu Perizinan'])[1]/preceding::span[3]</value>
+      <webElementGuid>aee81182-8a9e-40ac-9531-a103e864b11a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Critical'])[1]/preceding::span[3]</value>
+      <webElementGuid>76861727-dff6-489d-9ed9-7285cfb56086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div[2]/span/span/span/span</value>
+      <webElementGuid>6094ca8c-76c6-4d66-a701-1122eb16fa4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'select2-categorypermitid-nl-container' and @title = '
+											Perizinan Lingkungan
+										' and (text() = '
+											Perizinan Lingkungan
+										' or . = '
+											Perizinan Lingkungan
+										')]</value>
+      <webElementGuid>5c9fb491-3aa8-418e-94b9-633f49ff90dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Download-PNG-PA</name>
+   <tag></tag>
+   <elementGuidId>4a1f6190-a7f3-4f8f-933e-32c45f85deeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.apexcharts-menu-item.exportPNG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='apexchartsfh78kppz']/div[3]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#apexchartsfh78kppz >> internal:text=&quot;Download PNG&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa368d67-eb1b-448a-b946-fe4cb0ac7218</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>apexcharts-menu-item exportPNG</value>
+      <webElementGuid>3b001689-76f3-4321-982d-8ef0303de022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Download PNG</value>
+      <webElementGuid>0379e63b-1a5f-42db-864d-46005d2e406c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download PNG</value>
+      <webElementGuid>f1ba92e7-282c-4d3d-b1a0-52223ed2ac63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;apexchartsfh78kppz&quot;)/div[@class=&quot;apexcharts-toolbar&quot;]/div[@class=&quot;apexcharts-menu apexcharts-menu-open&quot;]/div[@class=&quot;apexcharts-menu-item exportPNG&quot;]</value>
+      <webElementGuid>1091853f-3c04-4177-a447-76adedd96f1d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='apexchartsfh78kppz']/div[3]/div[2]/div[2]</value>
+      <webElementGuid>d319ff09-474a-4c3f-a108-fb02734b322b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download SVG'])[1]/following::div[1]</value>
+      <webElementGuid>20cf7c2d-084e-4207-9a1c-31a284dc76e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perdagangan dan Usaha Umum'])[1]/following::div[14]</value>
+      <webElementGuid>77c34d57-b29e-4f44-a01a-c104d5650483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download CSV'])[1]/preceding::div[1]</value>
+      <webElementGuid>80d4f2a2-dcab-4201-9763-c2e642685a11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perizinan Sedang Diproses'])[2]/preceding::div[2]</value>
+      <webElementGuid>724dc753-9bf4-4a4b-bee3-37a0be3d6627</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download PNG']/parent::*</value>
+      <webElementGuid>3bc7a041-c970-483b-ad09-3a01a2621d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]</value>
+      <webElementGuid>a41414ec-c37c-48b4-8a62-076fc349f7b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Download PNG' and (text() = 'Download PNG' or . = 'Download PNG')]</value>
+      <webElementGuid>0879b67b-406b-41f5-887b-a705e34f1389</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

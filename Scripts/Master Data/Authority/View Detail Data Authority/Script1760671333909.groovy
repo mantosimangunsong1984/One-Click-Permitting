@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/a_Authority'))
 
-WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Cari_Data'), 'Testing')
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Cari_Data'), '(SIUPAL)')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
 

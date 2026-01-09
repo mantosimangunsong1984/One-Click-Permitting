@@ -25,17 +25,21 @@ WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_On
 
 WebUI.click(findTestObject('Reporting/Reporting Detail/Data Perizinan/Page_One Click Permiting/a_Data-Perizinan'))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Entitas'), 
-    'MMS Solution', false)
+WebUI.click(findTestObject('Reporting/Filter Data - Data Perizinan/Page_One Click Permitting/i_Filter-Data'))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Perusahaan'), 
-    'Mitra Nikel Utama', false)
+WebUI.click(findTestObject('Reporting/Filter Data - Data Perizinan/Page_One Click Permitting/span_Entitas'))
 
-WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/div_Filter-Data'))
+WebUI.setText(findTestObject('Reporting/Filter Data - Data Perizinan/Page_One Click Permitting/textarea_Entitas'), 'MMS Group Indonesia')
+
+WebUI.sendKeys(findTestObject('Reporting/Filter Data - Data Perizinan/Page_One Click Permitting/textarea_Entitas'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Reporting/Filter Data - Data Perizinan/Page_One Click Permitting/i-btn_Filter Data'))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

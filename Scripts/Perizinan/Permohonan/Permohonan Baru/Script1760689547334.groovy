@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Clic
 WebUI.sendKeys(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input__select2-search_company'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span_select2-Jenis-perizinan-yang-diajukan'))
+WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/span__select-perizinan-yg-diajukan'))
 
 WebUI.setText(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/input_select-perizinan-yg-diajukan'), 
     'Perizinan Usaha')
@@ -50,7 +50,7 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/Page_One Click Permiting/button_Ajukan-permohonan'), 
+not_run: WebUI.click(findTestObject('Perizinan/Permohonan/Permohonan Baru/New Permohonan Baru/Page_One Click Permiting/button__btnAjukan'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

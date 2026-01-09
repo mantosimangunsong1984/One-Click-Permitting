@@ -23,19 +23,20 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/a_Category-Permit'))
 
-WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/select_Lihatdata'), '50', 
-    false)
-
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Keperluan', 
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Pertambangan', 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), Keys.chord(
         Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.clearText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'))
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), Keys.chord(
         Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/select_Status'), 'DISABLE', 
     false)
@@ -47,9 +48,11 @@ WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One C
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/span_KBLI_select'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_select-KBLI2'), 'Pembongkaran')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_select-KBLI2'), 'Pertambangan Bijih Nikel')
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_select-KBLI2'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/div_FilterData-Pembongkaran'))
 

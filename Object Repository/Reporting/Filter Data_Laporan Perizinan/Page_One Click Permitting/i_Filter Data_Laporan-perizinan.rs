@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Filter Data_Laporan-perizinan</name>
+   <tag></tag>
+   <elementGuidId>72cb4ac8-a5b6-4951-a439-2877ee69e2ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bx.bx-filter.font-size-16.align-middle.me-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='reporting-detail-content']/div/div/div/div/div[2]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#reporting-detail-content i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>740e9551-7b8f-4a0b-afa9-d36dbe1a07fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-filter font-size-16 align-middle me-1</value>
+      <webElementGuid>7b96cfae-669c-4ccf-80cc-6b6e4c405ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;reporting-detail-content&quot;)/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-end&quot;]/div[@class=&quot;btn btn-sm btn-success&quot;]/i[@class=&quot;bx bx-filter font-size-16 align-middle me-1&quot;]</value>
+      <webElementGuid>3a64e13d-e6e7-4383-9f3a-9531d34b05c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='reporting-detail-content']/div/div/div/div/div[2]/div/i</value>
+      <webElementGuid>dabcb0f3-37d9-47ba-987f-6f07d9431482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/i</value>
+      <webElementGuid>082ddc91-32f0-4c3e-9fc9-2820890c29d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -27,7 +27,7 @@ WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One C
     '50', false)
 
 WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
-    'Testing', FailureHandling.STOP_ON_FAILURE)
+    '(SIUPAL)', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
     Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)

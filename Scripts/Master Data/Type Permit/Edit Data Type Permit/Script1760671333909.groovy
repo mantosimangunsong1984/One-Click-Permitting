@@ -23,13 +23,13 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/a_Type-Permit'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), 'Testing')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), 'Testing Type Permit')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/a_Edit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/textarea_TypePermitDesc-Edit'), 'Keperluan Testing Rubah Data Type Permit Existing ')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/textarea_TypePermitDesc-Edit'), 'Testing Rubah Data Type Permit Existing - 2')
 
 WebUI.takeFullPageScreenshot()
 

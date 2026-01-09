@@ -23,38 +23,39 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/a_Daftar-request-perizinan'))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025100007')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025120001')
 
 WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/div_Tindak-Lanjut'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/button_Tambah-perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Page_One Click Permitting/Page_One Click Permitting/i_Tindak Lanjut'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/span_KBLI_select'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/button_Tambah-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_select-search_KBLI'), 
-    '68111')
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/span_KBLI_select'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_select-search_KBLI'), 
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/input_KBLI'), 
+    '46900')
+
+WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/input_KBLI'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/span_Jenis-Perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/span_Jenis-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Jenis-perizinan-select'), 
-    'Sertifikat')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/input_KBLI'), 
+    'Eksportir Terdaftar (ET)')
 
-WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Jenis-perizinan-select'), 
+WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/input_KBLI'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/input_Nama-Izin'), 
-    'Testing Tambah perIzinan')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/input_Nama Izin'), 
+    'Testing Tambah perIzinan Utama -2')
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Tambah Perizinan/Page_One Click Permiting/button_Simpan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan 2/Tambah Perizinan Utama/Page_One Click Permitting/i_Simpan'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

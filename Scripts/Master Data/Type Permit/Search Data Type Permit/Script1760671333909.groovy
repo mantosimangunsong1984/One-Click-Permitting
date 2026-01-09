@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/a_Type-Permit'))
 
 WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
-    'Testing')
+    'Testing Type Permit')
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
     Keys.chord(Keys.ENTER))

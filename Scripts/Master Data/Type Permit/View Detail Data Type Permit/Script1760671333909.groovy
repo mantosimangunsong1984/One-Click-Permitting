@@ -23,11 +23,12 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/a_Type-Permit'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), 'Testing')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), 'Testing Type Permit')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Detail'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permitting/i_Detail'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

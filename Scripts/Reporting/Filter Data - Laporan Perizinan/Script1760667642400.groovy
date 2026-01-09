@@ -25,26 +25,22 @@ WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_On
 
 WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/a_Laporan-Perizinan'))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Entitas'), 
-    'MMS Solution', false)
+WebUI.click(findTestObject('Reporting/Filter Data_Laporan Perizinan/Page_One Click Permitting/i_Filter Data_Laporan-perizinan'))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Perusahaan'), 
-    'Mitra Nikel Utama', false)
+WebUI.click(findTestObject('Reporting/Filter Data_Laporan Perizinan/Page_One Click Permitting/span_Entitas'))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Rencana'), 
-    'Q4', false)
+WebUI.setText(findTestObject('Reporting/Filter Data_Laporan Perizinan/Page_One Click Permitting/textarea_Entitas'), 'MMS Group Indonesia')
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Rencana-(Tahun)'), 
-    '2025', false)
+WebUI.sendKeys(findTestObject('Reporting/Filter Data_Laporan Perizinan/Page_One Click Permitting/textarea_Entitas'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.selectOptionByLabel(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/select_Status'), 
-    'Proses', false)
-
-WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/div_Filter-Data'))
+WebUI.click(findTestObject('Reporting/Filter Data_Laporan Perizinan/Page_One Click Permitting/i_btn-Filter Data_Laporan Perizinan'))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

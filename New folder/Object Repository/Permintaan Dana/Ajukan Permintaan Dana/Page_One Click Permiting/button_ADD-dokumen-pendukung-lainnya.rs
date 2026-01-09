@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ADD-dokumen-pendukung-lainnya</name>
+   <tag></tag>
+   <elementGuidId>56ad5eb7-b925-424a-8425-b473b1767c14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='add-dokumen']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#add-dokumen</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Dokumen Pendukung lainnya&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e453bd7b-f9d9-43dc-849f-58c502047f3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cbb3f95d-8a4d-47fc-b870-06abe0e8a5c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>add-dokumen</value>
+      <webElementGuid>c5e6b309-d7a0-4573-9d59-b9704a52ac90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success mt-2</value>
+      <webElementGuid>99c72517-9b14-4618-b610-25746dcb4fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+										 Dokumen Pendukung lainnya
+									</value>
+      <webElementGuid>08f0e57c-18b3-4de1-be5c-c25d67eb76e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add-dokumen&quot;)</value>
+      <webElementGuid>f94aac19-6bd6-4010-9817-7da0f1f97287</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='add-dokumen']</value>
+      <webElementGuid>16486786-8a45-42f9-9776-207593584c20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modalContentPermintaanDana']/div[10]/div[2]/button</value>
+      <webElementGuid>d4824ecc-90b1-404b-bab8-e6b5eae377a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opsional'])[1]/following::button[1]</value>
+      <webElementGuid>ad62b167-1a1d-4388-a0b3-5fcf46cefb17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maks. 2MB, ekstensi: pdf, png, jpg, docx'])[2]/preceding::button[1]</value>
+      <webElementGuid>d7f499ef-86e5-4851-8955-941f4a76dd47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keterangan'])[1]/preceding::button[1]</value>
+      <webElementGuid>132acfce-33ae-480d-ae2a-3811f31e60cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dokumen Pendukung lainnya']/parent::*</value>
+      <webElementGuid>5738569f-9a23-4d8b-bc2d-ece3d30bc6c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]/button</value>
+      <webElementGuid>e79b3d95-fe22-4e4d-ac0e-330fec57fe02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'add-dokumen' and (text() = '
+										 Dokumen Pendukung lainnya
+									' or . = '
+										 Dokumen Pendukung lainnya
+									')]</value>
+      <webElementGuid>5b97efd2-03c1-4477-b369-282a2e1c923f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

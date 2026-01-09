@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/span_Dashboard'))
 
 WebUI.verifyTextPresent('Dashboard', false)
 

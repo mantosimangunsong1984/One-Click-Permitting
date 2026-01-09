@@ -19,27 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/span_Dashboard'))
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_perizinan-terbit'))
-
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/Proses-Perizinan-Perizinan-Terbit'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_sedang-diproses-instansi'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/span_Dashboard'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/Proses-Perizinan-Perizinan-Sedang-Diproses'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/span_Dashboard'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_perizinan-habis'))
+WebUI.click(findTestObject('Dashboard/Page_One Click Permitting/Proses-Perizinan-Perizinan-Berakhir'))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Filter Permintaan Dana</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8d94f785-ee83-4964-95c6-7b92e1f987c0</testCaseGuid>
-</TestCaseEntity>
