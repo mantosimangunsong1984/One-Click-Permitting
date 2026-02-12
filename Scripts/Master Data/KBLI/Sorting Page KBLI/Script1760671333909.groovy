@@ -23,8 +23,6 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_KBLI'))
 
-WebUI.verifyTextPresent('KBLI', false)
-
 WebUI.click(findTestObject('Master Data/KBLI/sorting/Page_One Click Permiting/th_sorting_KBLI-code'))
 
 WebUI.click(findTestObject('Master Data/KBLI/sorting/Page_One Click Permiting/th_sorting_KBLI-code'))

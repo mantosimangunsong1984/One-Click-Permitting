@@ -23,19 +23,19 @@ WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_perizinan-terbit'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/p_Perizinan Terbit'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_sedang-diproses-instansi'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/p_Perizinan Sedang Diproses'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/span_Dashboard'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_perizinan-habis'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/p_Perizinan Berakhir'))
 
 WebUI.delay(3)
 

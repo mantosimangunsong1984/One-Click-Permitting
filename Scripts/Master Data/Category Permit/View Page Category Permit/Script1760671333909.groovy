@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/select_Lihatdata'), '50', 
     false)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Keperluan', 
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Testing', 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), Keys.chord(

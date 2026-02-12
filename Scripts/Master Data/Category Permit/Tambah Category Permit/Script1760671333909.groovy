@@ -27,17 +27,19 @@ WebUI.verifyTextPresent('KBLI', false)
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/a_Tambah'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_CategoryPermitName_EDIT'), 'TestingCreateCategoryPermit')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_CategoryPermitName_EDIT'), 'Category Permit Sample')
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/textarea_CategoryPermitDesc'), 'KebutuhanTestingSaja')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permitting/input_Nama Kategori Perizinan (ENG)'), 
+    'Category Permit Sample')
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/span_KBLI_select'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permitting/b_Pilih-KBLI'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_select_KBLI'), 'Test Doc KBLI 2')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permitting/input_search-field-KBLI'), 'Pembongkaran')
 
-WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_select_KBLI'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permitting/input_search-field-KBLI'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permitting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

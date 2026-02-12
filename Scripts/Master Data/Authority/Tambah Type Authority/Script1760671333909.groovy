@@ -25,11 +25,11 @@ WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/a_Aut
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Tambah'))
 
-WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Authority-Name_Edit'), 'Testing Authority 2')
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Authority-Name_Edit'), 'Contoh Instansi Penerbit 2')
 
-WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/textarea_Authority-Description_Edit'), 'Untuk Keperluan Testing Authority')
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permitting/input_Nama Instansi Penerbit (ENG)'), 'Authority For Sample')
 
-WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permitting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

@@ -27,18 +27,21 @@ WebUI.verifyTextPresent('KBLI', false)
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Tambah'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_TypePermit-Edit'), 'Testing Type Permit')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_TypePermit-Edit'), 'Sample Type Permit')
+
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permitting/input_Nama Tipe Perizinan (ENG)_typepermitnameeng'), 
+    'Sample Type Permit')
 
 WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/textarea_TypePermitDesc-Edit'), 'Untuk Keperluan Testing Type Permit ')
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/span_CategoryPermit-Edit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), 'Perizinan Usaha')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), '46900')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permitting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

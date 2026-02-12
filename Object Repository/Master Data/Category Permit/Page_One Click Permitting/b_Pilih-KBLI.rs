@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Pilih-KBLI</name>
+   <tag></tag>
+   <elementGuidId>638ed129-cc5b-4749-ba09-d46595193c54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.select2-selection__arrow > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div/div/form/div[3]/span/span/span/span[2]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Pilih KBLI&quot;i >> b</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>0ae6ffc9-efcd-4e46-8430-9164019487d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>00530b50-b424-4833-bd03-7b39a8235085</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/form[1]/div[@class=&quot;form-group mb-3&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]/b[1]</value>
+      <webElementGuid>572a3f26-a0cb-4588-83f0-07253554feb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div/div/form/div[3]/span/span/span/span[2]/b</value>
+      <webElementGuid>bfd6f9d9-4e4d-43a0-a86f-8b16de1fb9e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/b</value>
+      <webElementGuid>d8f8a360-5c49-454c-9176-79105bab6f5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

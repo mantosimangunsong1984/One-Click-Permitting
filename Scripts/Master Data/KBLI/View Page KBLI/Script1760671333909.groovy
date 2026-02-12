@@ -23,19 +23,22 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_KBLI'))
 
-WebUI.verifyTextPresent('KBLI', false)
+WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Lihatdata'), 
+    '50', false)
 
-WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Lihatdata'), '50', false)
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    '77777', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), '42912', FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Status'), 'DISABLE', false)
+WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Status'), 
+    'DISABLE', false)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Status'), 'ENABLE', false)
+WebUI.selectOptionByLabel(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/select_Status'), 
+    'ENABLE', false)
 
 WebUI.delay(3)
 

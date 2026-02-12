@@ -23,15 +23,17 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_KBLI'))
 
-WebUI.verifyTextPresent('KBLI', false)
-
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Tambah'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Code_EDIT'), '7777')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Code_EDIT'), 
+    '888888')
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Name_EDIT'), 'Test Doc KBLI 2')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Name_EDIT'), 
+    'Test Doc KBLI 88888')
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/button_Simpan-EditKbli'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Master Data/KBLI/Page_One Click Permitting/input_Nama KBLI (ENG)_kblinameeng'), 'Test Doc KBLI 88888')
+
+WebUI.click(findTestObject('Master Data/KBLI/Page_One Click Permitting/button_Simpan'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

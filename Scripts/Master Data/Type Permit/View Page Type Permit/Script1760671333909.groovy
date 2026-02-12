@@ -44,15 +44,15 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/span_KBLI_select'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), 'Testing Rubah Data KBLI Existing')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), 'Keperluan')
 
 WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-Kbli'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/span_CategoryPermit-Edit'))
+WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permitting/b_Category-Permit'))
 
-WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), 'Perizinan Usaha')
+WebUI.setText(findTestObject('Master Data/Type Permit/Page_One Click Permitting/input_Search-category-permitting'), 'Lingkungan')
 
-WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/input_select-category-permit'), Keys.chord(
+WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permitting/input_Search-category-permitting'), Keys.chord(
         Keys.ENTER))
 
 WebUI.click(findTestObject('Master Data/Type Permit/Page_One Click Permiting/div_FilterData'), FailureHandling.STOP_ON_FAILURE)

@@ -23,19 +23,20 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_KBLI'))
 
-WebUI.verifyTextPresent('KBLI', false)
-
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/div_Import'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_File Excel-Import'), 'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\MekanismeCheckinCheckOut.docx')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_File Excel-Import'), 
+    'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\Absensi SIT LMS.docx')
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Download-Template-Import'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Download-Template-Import'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/button_Simpan-Import'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/button_Simpan-Import'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(0)
 

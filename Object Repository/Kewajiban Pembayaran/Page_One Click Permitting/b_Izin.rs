@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Izin</name>
+   <tag></tag>
+   <elementGuidId>ae438293-bffd-414a-87f1-ca3af68f5cab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.select2.select2-container.select2-container--default.select2-container--focus > span.selection > span.select2-selection.select2-selection--single.select2-selection--clearable > span.select2-selection__arrow > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modalContentPermintaanDana']/div[3]/div[2]/span/span/span/span[2]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;-- Pilih Izin --&quot;i >> b</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>b7b545dd-9dac-4401-bdd7-6896b41c10b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>150a27c8-c6a2-4e8a-b144-944fae05118a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modalContentPermintaanDana&quot;)/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-sm-9&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single select2-selection--clearable&quot;]/span[@class=&quot;select2-selection__arrow&quot;]/b[1]</value>
+      <webElementGuid>b6049546-7e40-400d-9a1c-f83212c4abc6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modalContentPermintaanDana']/div[3]/div[2]/span/span/span/span[2]/b</value>
+      <webElementGuid>ed61ccc3-0599-426f-9303-9f5c5a530ddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/span/span/span/span[2]/b</value>
+      <webElementGuid>a4cb3806-da8f-4e2e-976f-a84341b5b127</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

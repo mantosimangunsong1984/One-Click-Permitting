@@ -29,7 +29,7 @@ WebUI.sendKeys(findTestObject('Master Data/Type Permit/Page_One Click Permiting/
 
 WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/a_EDIT'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/textarea_Authority-Description_Edit'), 'Keperluan Testing Rubah Data Authority Existing ')
+WebUI.setText(findTestObject('Master Data/Authority/Page_One Click Permiting/input_Authority-Name_Edit'), 'Data Authority Existing 12 FEB 2026 - 1')
 
 WebUI.takeFullPageScreenshot()
 

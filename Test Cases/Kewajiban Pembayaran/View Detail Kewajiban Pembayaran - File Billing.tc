@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Detail Kewajiban Pembayaran - File Billing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c09b034-f2b9-4908-825b-46a736fc52da</testCaseGuid>
+</TestCaseEntity>

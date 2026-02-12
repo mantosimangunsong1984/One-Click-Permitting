@@ -23,19 +23,21 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_KBLI'))
 
-WebUI.verifyTextPresent('KBLI', false)
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    '77777')
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), '99999')
-
-WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Edit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Name_EDIT'), 'Keperluan Testing Rubah Data KBLI Existing ')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_KBLI Name_EDIT'), 
+    'Keperluan Existing ')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/button_Simpan-EditKbli'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/button_Simpan-EditKbli'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

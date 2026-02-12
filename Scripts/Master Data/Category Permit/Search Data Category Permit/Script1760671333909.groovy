@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/a_Category-Permit'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Keperluan ')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), 'Testing')
 
 WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_Cari-data-dan-edit-kbli'), Keys.chord(
         Keys.ENTER))

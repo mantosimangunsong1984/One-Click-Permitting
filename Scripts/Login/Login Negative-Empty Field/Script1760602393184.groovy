@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ocp-mmsgi.alfahuma.biz.id/login')
+WebUI.navigateToUrl('https://staging-ocp-lms.mmsgroup.co.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login/Page_Login  One Click Permiting/input_Member Login_username'), '')
+WebUI.setText(findTestObject('Login/New Login/Page_Login  One Click Permiting/input_Member Login_email'), '')
 
-WebUI.setText(findTestObject('Login/Page_Login  One Click Permiting/input_Member Login_userpassword'), '')
+WebUI.setText(findTestObject('Login/New Login/Page_Login  One Click Permiting/input_Member Login_userpassword'), '')
 
-WebUI.click(findTestObject('Login/Page_Login  One Click Permiting/button_Member Login_btn-login'))
+WebUI.click(findTestObject('Login/New Login/Page_Login  One Click Permiting/button_Member Login_btn-login'))
 
 WebUI.delay(3)
 

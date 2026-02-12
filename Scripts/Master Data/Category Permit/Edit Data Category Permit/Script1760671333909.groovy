@@ -23,13 +23,15 @@ WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/a_Category-Permit'))
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 'Keperluan')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    'Testing')
 
-WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_Cari_Data'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/a_Edit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_CategoryPermitName_EDIT'), 'Testing Perizinan')
+WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/input_CategoryPermitName_EDIT'), 'Testing Perizinan Rev')
 
 WebUI.takeFullPageScreenshot()
 

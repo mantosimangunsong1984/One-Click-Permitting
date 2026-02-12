@@ -21,19 +21,19 @@ WebUI.callTestCase(findTestCase('Login/Login Positive'), [:], FailureHandling.ST
 
 WebUI.verifyTextPresent('Dashboard', false)
 
-WebUI.scrollToElement(findTestObject('Dashboard/Page_One Click Permiting/div_Lead Time_Pengurusan-Izin'), 3)
+WebUI.scrollToElement(findTestObject('Dashboard 2/Page_One Click Permitting/h6_LEAD TIME  PENGURUSAN IZIN'), 3)
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead Time_Pengurusan-Izin'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/h6_LEAD TIME  PENGURUSAN IZIN'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/btn_Detail-Lead-Time-Pengurusan-Izin_btn-close'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead-Time-Pengumpulan-dokumen'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/h6_LEAD TIME  PENGUMPULAN DOKUMEN'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/btn_Detail-Lead-Time-PengumpulanDokumen_btn-close'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/div_Lead-Time-Pembayaran'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/h6_LEAD TIME  PEMBAYARAN'))
 
-WebUI.click(findTestObject('Dashboard/Page_One Click Permiting/button_Close_LeadTime-ALL'))
+WebUI.click(findTestObject('Dashboard 2/Page_One Click Permitting/btn_Detail-Lead-Time -Pembayaran_btn-close'))
 
 WebUI.delay(3)
 

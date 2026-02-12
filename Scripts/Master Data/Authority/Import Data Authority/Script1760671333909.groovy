@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Master Data/Authority/Page_One Click Permiting/a_Aut
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/div_Import'))
 
 WebUI.setText(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/input_File Excel-Import'), 
-    'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\MekanismeCheckinCheckOut.docx')
+    'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\Absensi SIT LMS.docx')
 
 WebUI.click(findTestObject('Master Data/Category Permit/Page_One Click Permiting/Page_One Click Permiting/a_Download-Template-Import'), 
     FailureHandling.STOP_ON_FAILURE)
