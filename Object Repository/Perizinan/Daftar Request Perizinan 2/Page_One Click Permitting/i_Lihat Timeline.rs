@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Lihat Timeline</name>
+   <tag></tag>
+   <elementGuidId>d8582c79-25c9-4f2c-8591-947aee7abb00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-stream</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div[2]/div/button[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Lihat Timeline&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>70ecc1b6-cb88-484b-a3e7-bcfb0a0becda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-stream</value>
+      <webElementGuid>9f0b7ecb-a2b6-4f59-88d1-99c7c89ef8cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;border-custom p-3 mb-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;formDaftar&quot;]/button[@class=&quot;btn btn-primary w-100 mb-3&quot;]/i[@class=&quot;fa fa-stream&quot;]</value>
+      <webElementGuid>1ba240d6-0da3-44ac-9a0a-d2793fa7f174</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div[2]/div/button[2]/i</value>
+      <webElementGuid>e7d965d1-6929-4585-95aa-11361ca03af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>4f839f40-1f37-4c73-8ab1-08b683d62969</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

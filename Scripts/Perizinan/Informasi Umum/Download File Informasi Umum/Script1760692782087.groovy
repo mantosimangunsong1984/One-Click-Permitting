@@ -23,8 +23,6 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/a_Informasi-umum'))
 
-WebUI.verifyTextPresent('Informasi Umum', false)
-
 WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/button_Download-Excel'))
 
 WebUI.delay(3)

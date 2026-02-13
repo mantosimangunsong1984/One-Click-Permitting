@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Edit_Request-Perizinan</name>
+   <tag></tag>
+   <elementGuidId>8ff34d34-5a2f-47cd-a70a-4f7ae0ec2e4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-pencil-alt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div/div[7]/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Edit&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3cbaaaf8-0fb7-40eb-916b-0b1567ad6a30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-alt</value>
+      <webElementGuid>531fb385-e5c8-45a1-a5d9-a3430adfa7c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;border-custom p-3 mb-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;row kv-row&quot;]/div[@class=&quot;col-sm-7 kv-value&quot;]/button[@class=&quot;btn btn-warning btn-sm&quot;]/i[@class=&quot;fa fa-pencil-alt&quot;]</value>
+      <webElementGuid>694e1f88-094e-4d1f-99e9-5f8fc1f358de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout-wrapper']/div[2]/div/div/div[2]/div/div/div/div/div[7]/div[2]/button/i</value>
+      <webElementGuid>59693352-5b5c-4647-bcbd-1079acd61ff6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/button/i</value>
+      <webElementGuid>b86fdb85-a674-4ecc-92e3-f5414739990c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

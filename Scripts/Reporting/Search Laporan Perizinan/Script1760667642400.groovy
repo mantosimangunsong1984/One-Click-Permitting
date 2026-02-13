@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_On
 
 WebUI.click(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/a_Laporan-Perizinan'))
 
-WebUI.setText(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/input_Cari_Data'), 'Pembangunan Ruang Kamar')
+WebUI.setText(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/input_Cari_Data'), 'Testing Add Izin Utama')
 
 WebUI.sendKeys(findTestObject('Reporting/Reporting Detail/Laporan Perizinan/Page_One Click Permiting/input_Cari_Data'), 
     Keys.chord(Keys.ENTER))

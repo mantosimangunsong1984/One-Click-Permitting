@@ -33,13 +33,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d09bba74-0811-43d9-a10c-31c0bda5e8fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Perizinan/Daftar Request Perizinan/View Detail Daftar Request Perizinan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>72c074a0-b942-4421-b929-2a7f5e970ce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

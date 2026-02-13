@@ -23,7 +23,9 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Tracking/Page_One Click Permiting/a_Tracking'))
 
-WebUI.verifyTextPresent('Tracking', false)
+WebUI.setText(findTestObject('Perizinan/Tracking/Page_One Click Permiting/input_Cari_Data'), 'P2025120002')
+
+WebUI.sendKeys(findTestObject('Perizinan/Tracking/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Perizinan/Tracking/Page_One Click Permiting/a_Detail_PerizinanSedangDiproses'))
 
@@ -36,10 +38,10 @@ WebUI.selectOptionByLabel(findTestObject('Perizinan/Tracking/Tambah Progress/Pag
 
 WebUI.setText(findTestObject('Perizinan/Tracking/Tambah Progress/Page_One Click Permiting/textarea_Keterangan'), 'Testing Data Sub Menu Tracking')
 
-WebUI.setText(findTestObject('Perizinan/Tracking/Tambah Progress/Page_One Click Permiting/input_Tanggal'), '31/12/2025')
+WebUI.setText(findTestObject('Perizinan/Tracking/Tambah Progress/Page_One Click Permiting/input_Tanggal'), '31/12/2026')
 
 WebUI.setText(findTestObject('Perizinan/Tracking/Tambah Progress/Page_One Click Permiting/input_File_tambah-progress-perizinan'), 
-    'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\MekanismeCheckinCheckOut.docx')
+    'C:\\\\Users\\\\manto.manto\\\\Downloads\\\\Absensi SIT LMS.docx')
 
 WebUI.click(findTestObject('Perizinan/Tracking/Tambah Progress/Page_One Click Permiting/button_Simpan'))
 

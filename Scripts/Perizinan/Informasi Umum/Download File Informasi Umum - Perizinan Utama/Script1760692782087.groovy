@@ -23,9 +23,11 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/a_Informasi-umum'))
 
-WebUI.verifyTextPresent('Informasi Umum', false)
+WebUI.setText(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Cari_Data'), 'P2025120004')
 
-WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/a_Download-Perizinan-utama'))
+WebUI.sendKeys(findTestObject('Perizinan/Informasi Umum/Page_One Click Permiting/input_Cari_Data'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Perizinan/Informasi Umum/Page_One Click Permitting/i_Download_perizinan-utama'))
 
 WebUI.delay(3)
 

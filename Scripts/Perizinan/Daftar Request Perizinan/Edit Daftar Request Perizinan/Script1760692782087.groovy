@@ -23,32 +23,37 @@ WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Pe
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/a_Daftar-request-perizinan'))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025100015')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), 'P2025120004')
 
 WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/input_Cari-data_form'), Keys.chord(
         Keys.ENTER))
 
 WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Page_One Click Permiting/div_Tindak-Lanjut'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/button_Edit_Daftar-request-perizinan'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/i_Edit_Request-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/span_Jenis-Perizinan_select-Edit'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/b_Jenis-Perizinan'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/input_jenis-perizinan-Edit'), 
-    'Perizinan Lingkungan')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/input_jenis-perizinan'), 
+    '02100')
 
-WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/input_jenis-perizinan-Edit'), 
+WebUI.sendKeys(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/input_jenis-perizinan'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/input_TargetWaktuPerizinan-Edit'), 
-    '31/12/2025')
+WebUI.setText(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/input_Target Waktu Perizinan'), 
+    '01/12/2026')
 
-WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Daftar Request Perizinan/Page_One Click Permiting/button_Simpan_Edit'), 
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/Set_Critical'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Perizinan/Daftar Request Perizinan/Edit Request Perizinan 2/Page_One Click Permitting/i_Simpan_Edit'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.closeBrowser()
 

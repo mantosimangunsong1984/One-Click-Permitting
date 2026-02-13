@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Simpan</name>
+   <tag></tag>
+   <elementGuidId>4b9186fd-7d21-4dd0-ba0d-0593e2540e3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#form-modal-modalKlarifikasiPerizinan > div.modal-footer.text-end > button.btn.btn-success.btn-sm > i.fa.fa-save</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form-modal-modalKlarifikasiPerizinan']/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Simpan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>587dabfa-cfa5-4aad-9f25-6c21b091f582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-save</value>
+      <webElementGuid>211c1be0-1c8f-4108-bf53-cd41b3f94dc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-modal-modalKlarifikasiPerizinan&quot;)/div[@class=&quot;modal-footer text-end&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]/i[@class=&quot;fa fa-save&quot;]</value>
+      <webElementGuid>9e93ed66-a707-45da-924c-3893dd02138e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form-modal-modalKlarifikasiPerizinan']/div[2]/button/i</value>
+      <webElementGuid>b48986d7-1064-4532-be50-c07b1b6313b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/form/div[2]/button/i</value>
+      <webElementGuid>dadc1816-7f12-473c-8395-1e6dd361424a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

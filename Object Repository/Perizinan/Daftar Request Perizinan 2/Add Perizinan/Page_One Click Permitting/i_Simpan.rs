@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Simpan</name>
+   <tag></tag>
+   <elementGuidId>e8b726d1-da7a-443d-a23f-ad13510ef2b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-save</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form-modal-modulTambahPerizinan']/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Simpan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5a1ffb09-d162-4687-bdf4-4b373bdc7752</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-save</value>
+      <webElementGuid>44f836a8-f741-4b4d-8f74-383e4a5bc7bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-modal-modulTambahPerizinan&quot;)/div[@class=&quot;modal-footer text-end&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]/i[@class=&quot;fa fa-save&quot;]</value>
+      <webElementGuid>52d48db1-ad45-4501-9ad3-88d56c8640c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form-modal-modulTambahPerizinan']/div[2]/button/i</value>
+      <webElementGuid>e6b8e83f-426b-4b9f-bc09-0247b2dda853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/button/i</value>
+      <webElementGuid>958a617b-2d68-4eec-80af-1a795ec7732a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

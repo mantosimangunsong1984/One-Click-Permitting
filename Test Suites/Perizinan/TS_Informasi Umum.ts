@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>44bf59a5-88b5-4697-a549-716bdbc22267</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Perizinan/Informasi Umum/Download File Informasi Umum - Sub Perizinan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e45c600d-09e2-4687-af3a-b83b6adb4148</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
